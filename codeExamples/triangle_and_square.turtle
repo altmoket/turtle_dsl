@@ -1,0 +1,15 @@
+
+shape black_and_white
+	line E 150
+	line NW 71
+	line W 50
+	line SW 71
+end
+
+shape triangle
+	line red
+	fill yellow
+	line E 400
+	line N 300
+	line 126.9* 500
+end
