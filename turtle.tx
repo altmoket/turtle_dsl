@@ -1,7 +1,3 @@
-Comment:
-    /\/\*(.|\n)*?\*\// | /\/\/.*?$/
-;
-
 Scene:
 	shapes*=Shape
 	draw_instructions*=DrawInstruction
@@ -36,7 +32,7 @@ Bearing:
 ;
 
 Angle:
-	degrees=FLOAT 'deg'
+	degrees=STRICTFLOAT 'deg'
 ;
 
 Color:
@@ -48,5 +44,9 @@ DrawInstruction:
 ;
 
 Position:
-	'at' x=Int ',' y=Int
+	'at' x=INT ',' y=INT
+;
+
+Comment:
+    /\/\*(.|\n)*?\*\// | /\/\/.*?$/
 ;
