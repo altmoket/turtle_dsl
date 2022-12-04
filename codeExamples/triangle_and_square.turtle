@@ -5,7 +5,7 @@ shape triangle
 	fill yellow
 	line E 400
 	line N 300
-	line 126.9° 500
+	line 126.9 deg 500
 end
 
 shape square
