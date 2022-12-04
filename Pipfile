@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 textx = "*"
 tk = "*"
+pythonturtle = "*"
 
 [dev-packages]
 pytest = "*"
